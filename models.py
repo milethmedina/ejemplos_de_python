@@ -35,5 +35,3 @@ class student (User):
 
     def __str__(self):
             return "student:"+str(self.id)+","+self.email
-    
-    
